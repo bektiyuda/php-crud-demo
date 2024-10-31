@@ -1,0 +1,8 @@
+create database crud;
+use crud;
+CREATE TABLE post (
+id INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+title VARCHAR(100) NOT NULL,
+content MEDIUMTEXT NOT NULL,
+PRIMARY KEY (id)
+);
